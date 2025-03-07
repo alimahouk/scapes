@@ -1,0 +1,324 @@
+/* 
+  Localizable.strings
+  Nightboard
+
+  Created by MachOSX on 8/3/13.
+
+*/
+
+// Generic
+"SH_SIGNATURE" = "by Scapehouse.";
+"GENERIC_OK" = "Okay";
+"GENERIC_DONE" = "Done";
+"GENERIC_SAVE" = "Save";
+"GENERIC_POST" = "Post";
+"GENERIC_CREATE" = "Create";
+"GENERIC_EDIT" = "Edit";
+"GENERIC_COPY" = "Copy";
+"GENERIC_DELETE" = "Delete";
+"GENERIC_USE" = "Use";
+"GENERIC_NEXT" = "Next";
+"GENERIC_FORWARD" = "Forward";
+"GENERIC_BACK" = "Back";
+"GENERIC_SEARCH" = "Search";
+"GENERIC_CONFIRM" = "Confirm";
+"GENERIC_CANCEL" = "Cancel";
+"GENERIC_LOADING" = "loading…";
+"GENERIC_OPEN_IN" = "open in…";
+"GENERIC_ALERT" = "Alert!";
+"GENERIC_WARNING" = "Warning!";
+"GENERIC_TITLE_ERROR" = "Error!";
+"GENERIC_PLACEHOLDER_SEARCH" = "Search";
+"GENERIC_TRY_AGAIN" = "Try Again";
+"GENERIC_PHOTO_CAMERA" = "Camera";
+"GENERIC_PHOTO_CAMERA_VERBOSE" = "Photo From Camera";
+"GENERIC_PHOTO_LIBRARY" = "Library";
+"GENERIC_PHOTO_LIBRARY_VERBOSE" = "Photo From Library";
+"GENERIC_PHOTO_LAST_TAKEN" = "Use Last Photo Taken";
+"GENERIC_PHOTO_REMOVE" = "Remove Photo";
+"GENERIC_HUD_NETWORK_RESPONSE_ERROR" = "an error occured! :(";
+"GENERIC_HUD_NETWORK_ERROR" = "oops! :(";
+"GENERIC_NETWORK_ERROR_TITLE" = "network error.";
+"GENERIC_NETWORK_ERROR_MESSAGE" = "The server could not be reached at this time. Check your connection.";
+"GENERIC_RATE_TITLE" = "rate Nightboard.";
+"GENERIC_RATE_MESSAGE" = "Hope you're enjoying Nightboard! Care to take a minute to rate it on the App Store? :)";
+"GENERIC_RATE_CONFIRM" = "Rate";
+"GENERIC_RATE_DISMISS" = "No, Thanks";
+
+"NETWORK_CONNECTION_STATUS_CONNECTED" = "connected!";
+"NETWORK_CONNECTION_STATUS_CONNECTING" = "connecting...";
+"NETWORK_CONNECTION_STATUS_OFFLINE" = "offline.";
+
+// Login
+"LOGIN_PHONE_FIELD_PLACEHOLDER" = "your phone number...";
+"LOGIN_VERIFICATION_PLACEHOLDER" = "verification code...";
+"LOGIN_VERIFICATION_SENT" = "SMS sent!";
+"LOGIN_VERIFICATION_DESCRIPTION" = "An SMS containing a verification code was sent to this number. Enter it here to continue.";
+"LOGIN_ADDRESS_BOOK_SCAN_TITLE" = "Hi, %1$@!";
+"LOGIN_ADDRESS_BOOK_SCAN_MESSAGE" = "Would you like to import this phone's address book? This will add any new contacts to your main Nightboard contacts list.";
+"LOGIN_ADDRESS_BOOK_SCAN_CONFIRM" = "Import";
+"LOGIN_ADDRESS_BOOK_SCAN_CANCEL" = "Nope";
+"LOGIN_ERROR_VERIFICATION" = "Incorrect Code";
+"LOGIN_ERROR_PHONE_NUMBER" = "Invalid Number";
+"LOGIN_ERROR_DESCRIPTION_PHONE_NUMBER" = "The phone number you entered doesn't look right. Make sure it's a mobile number!";
+
+// Signup
+"SIGNUP_DP_SHEET_TITLE" = "Add a Display Picture";
+"SIGNUP_WELCOME" = "Hmmm! Looks like this is the first time you're using Nightboard. What's your name?";
+"SIGNUP_PLACEHOLDER_FIRST_NAME" = "first name.";
+"SIGNUP_PLACEHOLDER_LAST_NAME" = "last name.";
+"SIGNUP_ERROR_LENGTH_FIRST_NAME" = "Your first name is too long!";
+"SIGNUP_ERROR_LENGTH_LAST_NAME" = "Your last name is too long!";
+"SIGNUP_ERROR_ADDRESS_BOOK_PRIVACY" = "You can't really use Nightboard if it can't see which of your phone contacts are using it. Go to the Settings app & allow it access to your address book!";
+"SIGNUP_ERROR_ADDRESS_UNKNOWN_ERROR" = "An error occurred while to trying to access your phone's address book. :(";
+"SIGNUP_ERROR_SIGNUP_HALT" = "Signups have temporarily been halted due to very high pressure on our servers. Check back later!";
+
+// Main Menu
+"MINI_FEED_TITLE" = "mini feed.";
+"OPTION_DELETE_STATUS" = "Delete Status";
+"OPTION_MUTE_UPDATES" = "Mute Updates";
+"OPTION_UNMUTE_UPDATES" = "Unmute Updates";
+"ALERT_NEW_PEER" = "New people discovered. Refresh to view.";
+"ALERT_STATUS_UNDELETABLE" = "This status can't be deleted!";
+"ALERT_DELETING_LAST_STATUS" = "This status can't be deleted because it's your only status! You need to always have at least one status.";
+"TABLE_REFRESH_LABEL_TRIGGERED" = "now, let go!";
+"TABLE_REFRESH_LABEL_NORMAL" = "pull to refresh...";
+"TABLE_REFRESH_LABEL_LOADING" = "loading...";
+
+// Cloud
+"CHAT_CLOUD_PLACEHOLDER_SEARCH" = "Cloud Search";
+"CHAT_CLOUD_LOADING" = "loading Cloud...";
+"CHAT_CLOUD_EMPTY" = "no contacts yet.";
+"CHAT_CLOUD_ERROR_GENERIC" = "an error occured. :(";
+"CHAT_CLOUD_ERROR_PRIVACY" = "Could not load your contacts!\nPlease give Nightboard access from the phone's Settings app.";
+"CHAT_CLOUD_TITLE_USER_NOT_FOUND" = "Not Found!";
+"CHAT_CLOUD_USER_NOT_FOUND" = "Nobody with that username exists.";
+
+// Chat Bubbles
+"OPTION_CALL_CONTACT" = "Call";
+"OPTION_VIEW_PROFILE" = "View Profile";
+"OPTION_CHANGE_CONTACT_PICTURE_ADD" = "Change Picture";
+"OPTION_CHANGE_CONTACT_PICTURE_REMOVE" = "Remove Picture";
+"OPTION_RENAME_CONTACT" = "Rename Contact";
+"OPTION_ADD_CONTACT" = "Add Contact";
+"OPTION_DELETE_CONTACT" = "Remove Contact";
+"OPTION_BLOCK_CONTACT" = "Block Contact";
+"OPTION_UNBLOCK_CONTACT" = "Unblock Contact";
+"OPTION_DELETE_HISTORY" = "Delete Chat History";
+"CONFIRMATION_DELETE_CONTACT" = "Are you sure you want to remove %1$@ %2$@ from your Nightboard contacts?";
+"CONFIRMATION_DELETE_HISTORY" = "Are you sure you want to delete your conversation history with %1$@ %2$@? You can't undo this action!";
+
+// Contact Info View
+"CONTACT_INFO_TITLE" = "Contact Info";
+"CONTACT_INFO_NOT_FOUND" = "contact not found.";
+
+// Map View
+"MAP_TYPE_STANDARD" = "Standard";
+"MAP_TYPE_HYBRID" = "Hybrid";
+"MAP_TYPE_SATELLITE" = "Satellite";
+"MAP_COPY_COORDS" = "Copy Co-ordinates";
+
+// Messages View
+"MESSAGES_SEND" = "Send";
+"MESSAGES_ATTACH_CAMERA" = "camera";
+"MESSAGES_ATTACH_LIBRARY" = "library";
+"MESSAGES_ATTACH_LAST_PHOTO" = "last photo";
+"MESSAGES_ATTACH_LOCATION" = "location";
+"MESSAGES_ATTACH_CONTACT" = "contact";
+"MESSAGES_ATTACH_FILE" = "file";
+"MESSAGES_MESSAGE_BOX_PLACEHOLDER" = "your message…";
+"MESSAGES_TOGGLE_LABEL_PRIVACY" = "Private Mode";
+"MESSAGES_NOTICE_UNSENT_MESSAGE" = "not sent yet.";
+"MESSAGES_HUD_SAVED_DP" = "Saved to Camera Roll";
+"MESSAGES_ERROR_LENGTH" = "Whoa! Your message is too long!";
+"MESSAGES_MEDIA_NOT_FOUND" = "file not found! :(";
+
+// Profile View
+"PROFILE_STATS_CONTACTS" = "contact%1$@.";
+"PROFILE_STATS_MESSAGES_SENT" = "message%1$@ sent.";
+"PROFILE_STATS_MESSAGES_RECEIVED" = "message%1$@ rcvd.";
+"PROFILE_STATS_FOLLOWING" = "%1$@ added.";
+"PROFILE_STATS_FOLLOWERS" = "added by.";
+"PROFILE_ADD_USER" = "+ Add to Contacts";
+"PROFILE_REMOVE_USER" = "Remove Contact";
+"PROFILE_ACCEPT_REQUEST" = "Accept Request";
+"PROFILE_DECLINE_REQUEST" = "Decline";
+"PROFILE_REQUEST_ACCEPTED" = "Request Accepted";
+"PROFILE_REQUEST_DECLINED" = "Request Declined";
+"PROFILE_HAS_USER_AS_CONTACT" = "has you as a contact!";
+"PROFILE_JOIN_DATE" = "you joined on %1$@.";
+"PROFILE_CALL_ERROR" = "Your device can't make calls.";
+"PROFILE_SEGMENT_MEDIA_RECEIVED" = "Received";
+"PROFILE_SEGMENT_MEDIA_SENT" = "Sent";
+"PROFILE_NO_MEDIA" = "no media yet.";
+"PROFILE_MEDIA_COUNT" = "%1$@ item%2$@.";
+
+// Status View
+"STATUS_TITLE" = "Update Status";
+"HELP_ADD_TEMPLATE" = "Drop here to add to templates.";
+"ALERT_NO_SONG" = "There's no song currently playing.";
+"ALERT_DUPLICATE_STATUS" = "💭 Wait! This status update looks exactly like your last one!";
+
+// Board Creator
+"CREATE_BOARD_TITLE" = "Create Board";
+"CREATE_BOARD_PLACEHOLDER" = "board name.";
+"CREATE_BOARD_OPEN" = "open.";
+"CREATE_BOARD_CLOSED" = "closed.";
+"CREATE_BOARD_MAIN_EXPLANATION" = "A board is a place where many people can post stuff about a particular topic. Whenever someone discovers you, they'll be able to join this board. Others can then also join thru them.";
+"CREATE_BOARD_OPEN_EXPLANATION" = "Anybody can join an open board once they discover it.";
+"CREATE_BOARD_CLOSED_EXPLANATION" = "Posts are hidden from non-members. People will need to be approved by existing members before joining.";
+
+// Board View
+"BOARD_EMPTY" = "👻 no posts yet.";
+"BOARD_PRIVATE" = "🔒 this is a private board.";
+"BOARD_POST" = "Add Post";
+"BOARD_JOIN" = "Join Board";
+"BOARD_REQUEST" = "Request to Join";
+"BOARD_LEAVE" = "Leave Board";
+"BOARD_REQUEST_SENT" = "Request Sent";
+
+// Board Details View
+"BOARD_DETAILS_TITLE" = "Board Details";
+"BOARD_DETAILS_NAME" = "name.";
+"BOARD_DETAILS_DESCRIPTION" = "description.";
+"BOARD_ADD_COVER" = "Add Cover Photo";
+"BOARD_CHANGE_COVER" = "Change Cover Photo";
+"BOARD_REMOVE_COVER" = "Remove Cover Photo";
+"BOARD_DETAILS_LEAVE_CONFIRMATION" = "are you sure you want to leave?";
+"BOARD_DETAILS_COVER_SHEET_TITLE" = "add a cover photo!";
+"BOARD_DETAILS_ERROR_NAME" = "the board name can't be blank!";
+
+// Board Post Composer
+"BOARD_POST_COMPOSER_TITLE" = "New Post";
+"BOARD_POST_COMPOSER_LENGTH_ERROR_TITLE" = "whoa!";
+"BOARD_POST_COMPOSER_LENGTH_ERROR" = "this post is too long!";
+
+// Board Post View
+"BOARD_POST_TITLE" = "Board Post";
+"BOARD_POST_DELETE_CONFIRMATION" = "are you sure you want to delete this post?";
+
+// Web Browser View
+"OPTION_OPEN_SAFARI" = "Open in Safari";
+"OPTION_OPEN_GOOGLE_CHROME" = "Open in Chrome";
+"OPTION_COPY_LINK" = "Copy Link";
+
+// Passcode View
+"PASSCODE_TITLE_MAIN" = "Enter Passcode";
+"PASSCODE_TITLE_OLD" = "Enter your old passcode.";
+"PASSCODE_TITLE_NEW" = "Enter your new passcode.";
+"PASSCODE_TITLE_CONFIRM" = "Confirm Passcode";
+"PASSCODE_TITLE_CONFIRM_ERROR" = "You mistyped it. Go again.";
+"PASSCODE_DELAY_DESCRIPTION" = "You can try again in";
+"PASSCODE_DELAY_TIME" = "%1$d minutes.";
+"PASSCODE_DELAY_TIME_1_MIN" = "1 minute.";
+
+// Settings View
+"SETTINGS_TITLE_MAIN" = "Settings";
+"SETTINGS_TITLE_ACCOUNT" = "Account";
+"SETTINGS_TITLE_PROFILE" = "Profile";
+"SETTINGS_TITLE_MESSAGES" = "Messages";
+"SETTINGS_TITLE_PRIVACY" = "Privacy";
+"SETTINGS_TITLE_PASSCODE" = "Passcode";
+"SETTINGS_TITLE_PASSCODE_TIMEOUT" = "Require Passcode";
+"SETTINGS_TITLE_TOS" = "Terms";
+"SETTINGS_TITLE_LICENSE" = "Nightboard License";
+"SETTINGS_TITLE_CHAT_WALLPAPER" = "Wallpaper";
+"SETTINGS_TITLE_CHAT_WALLPAPER_PREVIEW" = "Preview";
+"SETTINGS_INVITATION_SUBJECT" = "Nightboard for iPhone.";
+"SETTINGS_INVITATION_BODY" = "Check out Nightboard, the messenger for the rest of us.";
+"SETTINGS_SIGNATURE" = "❤ Nightboard %1$@, by Scapehouse.";
+"SETTINGS_OPTION_INVITE" = "Invite Friends";
+"SETTINGS_OPTION_ACCOUNT" = "Account";
+"SETTINGS_OPTION_PROFILE" = "Profile";
+"SETTINGS_OPTION_MESSAGES" = "Messages";
+"SETTINGS_OPTION_PRIVACY" = "Privacy Policy";
+"SETTINGS_OPTION_TOS" = "Terms & Conditions";
+"SETTINGS_OPTION_ADDRESS_BOOK" = "Use Address Book";
+"SETTINGS_OPTION_BLUETOOTH" = "Use Bluetooth";
+"SETTINGS_OPTION_LICENSE" = "Nightboard License";
+"SETTINGS_OPTION_CHANGE_NUMBER" = "Change Phone Number";
+"SETTINGS_OPTION_PASSCODE" = "Passcode Lock";
+"SETTINGS_OPTION_BLOCKLIST" = "Blocklist";
+"SETTINGS_OPTION_HIDDEN_CONTACTS" = "Removed Contacts";
+"SETTINGS_OPTION_ADD_USERNAME" = "Add Contact By Username";
+"SETTINGS_OPTION_LOGOUT" = "Logout";
+"SETTINGS_OPTION_LOG_OUT" = "Log Out";
+"SETTINGS_OPTION_WALLPAPER" = "Chat Wallpaper";
+"SETTINGS_OPTION_RELATIVE_TIME" = "Relative Timestamps";
+"SETTINGS_OPTION_AUTOSAVE_MEDIA" = "Autosave Media";
+"SETTINGS_OPTION_HQ_UPLOADS" = "High-Quality Uploads";
+"SETTINGS_OPTION_VIBRATE" = "In-App Vibration";
+"SETTINGS_OPTION_SOUNDS" = "In-App Sounds";
+"SETTINGS_OPTION_RETURN_KEY_TO_SEND" = "Use Return Key to Send";
+"SETTINGS_OPTION_LAST_SEEN" = "Last Seen Timestamp";
+"SETTINGS_OPTION_TALKING" = "Who I'm Talking To";
+"SETTINGS_DESCRIPTION_BLUETOOTH" = "you can't discover anyone without Bluetooth!";
+"SETTINGS_DESCRIPTION_LICENSE_LABEL" = "License Type";
+"SETTINGS_DESCRIPTION_LICENSE_TYPE_TRIAL" = "First Year Trial";
+"SETTINGS_DESCRIPTION_LICENSE_TYPE_ANNUAL" = "Annual";
+"SETTINGS_DESCRIPTION_LICENSE_TYPE_LIFETIME" = "Lifetime";
+"SETTINGS_DESCRIPTION_LICENSE_EXPIRY" = "Your Nightboard license has expired. It's time to renew your subscription!";
+"SETTINGS_OPTION_LICENSE_BUY" = "Buy Subscription";
+"SETTINGS_OPTION_NEW_PASSCODE" = "Add Passcode";
+"SETTINGS_OPTION_CHANGE_PASSCODE" = "Change Passcode";
+"SETTINGS_OPTION_DELETE_PASSCODE" = "Remove Passcode";
+"SETTINGS_OPTION_REQUIRE_PASSCODE" = "Require Passcode";
+"SETTINGS_DESCRIPTION_ADDRESS_BOOK" = "changes will take effect when you restart Nightboard.";
+"SETTINGS_DESCRIPTION_PASSCODE_PASSWORD" = "Choose a password first. You can use this along with your phone number to reset your passcode later in case you forget it.";
+"SETTINGS_DESCRIPTION_PASSCODE_PASSWORD_MIN_LENGTH" = "Your password needs to be at least 8 characters long!";
+"SETTINGS_DESCRIPTION_PASSCODE_PASSWORD_MAX_LENGTH" = "Whoooooa! That password is way too long!";
+"SETTINGS_DESCRIPTION_PASSCODE_TIMEOUT_IMMEDIATE" = "Immediately";
+"SETTINGS_DESCRIPTION_PASSCODE_TIMEOUT_1_MIN" = "1 minute";
+"SETTINGS_DESCRIPTION_PASSCODE_TIMEOUT_3_MINS" = "3 minutes";
+"SETTINGS_DESCRIPTION_PASSCODE_TIMEOUT_5_MINS" = "5 minutes";
+"SETTINGS_DESCRIPTION_PASSCODE_TIMEOUT_10_MINS" = "10 minutes";
+"SETTINGS_DESCRIPTION_PASSCODE_TIMEOUT_15_MINS" = "15 minutes";
+"SETTINGS_DESCRIPTION_RELATIVE_TIME" = "Turn this off if you prefer to see the exact time next to each message.";
+"SETTINGS_DESCRIPTION_LAST_SEEN" = "If you turn this off, you won't be able to see the last time your contacts came online.";
+"SETTINGS_DESCRIPTION_TALKING" = "If you turn this off, you won't be able to see who your contacts are talking to.";
+
+// Profile Editor
+"PROFILE_EDITOR_FIRST_NAME" = "first name.";
+"PROFILE_EDITOR_LAST_NAME" = "last name.";
+"PROFILE_EDITOR_USER_HANDLE" = "username.";
+"PROFILE_EDITOR_EMAIL" = "email.";
+"PROFILE_EDITOR_BIO" = "bio.";
+"PROFILE_EDITOR_WEBSITE" = "website.";
+"PROFILE_EDITOR_COUNTRY" = "country.";
+"PROFILE_EDITOR_STATE" = "state.";
+"PROFILE_EDITOR_CITY" = "city.";
+"PROFILE_EDITOR_GENDER" = "gender.";
+"PROFILE_EDITOR_BIRTHDAY" = "birthday.";
+"PROFILE_EDITOR_FACEBOOK" = "Facebook.";
+"PROFILE_EDITOR_TWITTER" = "Twitter.";
+"PROFILE_EDITOR_INSTAGRAM" = "Instagram.";
+"PROFILE_EDITOR_ERROR_FIRST_NAME_BLANK" = "You can't leave your first name blank!";
+"PROFILE_EDITOR_ERROR_FIRST_NAME_SHORT" = "Don't use initials as your first name.";
+"PROFILE_EDITOR_ERROR_FIRST_NAME_LONG" = "Whoa! Your first name is too long!";
+"PROFILE_EDITOR_ERROR_LAST_NAME_BLANK" = "You can't leave your last name blank!";
+"PROFILE_EDITOR_ERROR_LAST_NAME_SHORT" = "Don't use initials as your last name.";
+"PROFILE_EDITOR_ERROR_LAST_NAME_LONG" = "Whoa! Your last name is too long!";
+"PROFILE_EDITOR_ERROR_USERNAME_LONG" = "Your username is too long!";
+"PROFILE_EDITOR_ERROR_USERNAME_EXISTS" = "The username you picked is already taken.";
+"PROFILE_EDITOR_ERROR_EMAIL_LONG" = "The email address you entered is too long!";
+"PROFILE_EDITOR_ERROR_EMAIL_INVALID" = "The email address you entered doesn't look right…";
+"PROFILE_EDITOR_ERROR_EMAIL_EXISTS" = "The email address you entered is already in use!";
+"PROFILE_EDITOR_ERROR_CITY_LONG" = "The city name you entered is too long!";
+"PROFILE_EDITOR_ERROR_BIO_LONG" = "Your bio can't be more than 140 characters.";
+"PROFILE_EDITOR_ERROR_WEBSITE_LONG" = "Your website's URL is too long!";
+"PROFILE_EDITOR_ERROR_FACEBOOK_LONG" = "Your Facebook profile link is too long!";
+"PROFILE_EDITOR_ERROR_TWITTER_LONG" = "Your Twitter username is too long!";
+"PROFILE_EDITOR_ERROR_INSTAGRAM_LONG" = "Your Instagram username is too long!";
+
+// Tutorials
+"TUTORIAL_MESSAGE_PRIVACY" = "All conversations can be either public or private. Public messages appear to mutual contacts in Mini Feed.\n\nSwipe to the left for quick mode switching.";
+
+// Standardized Units
+"UNIT_DISTANCE_FEET" = "feet";
+"UNIT_DISTANCE_KM" = "km";
+"UNIT_DISTANCE_M" = "m";
+
+// 3rd Party
+"SERVICE_APPLE_MAPS" = "Apple Maps";
+"SERVICE_GOOGLE_MAPS" = "Google Maps";
+"ATTRIBUTION_FOURSQUARE" = "powered by Foursquare.";
