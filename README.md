@@ -2,6 +2,8 @@
 
 Scapes was a feature-rich iOS messenger that provides a modern and intuitive messaging experience with advanced features for personal communications.
 
+The [back end server](https://github.com/alimahouk/scapes-server) was written in Erlang.
+
 ## Features
 
 ### Messaging
