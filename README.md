@@ -83,4 +83,4 @@ This project is licensed under the terms specified in the LICENSE file.
 
 ## Author
 
-Created by Ali Mahouk.
+Created by Ali Mahouk in 2014.
